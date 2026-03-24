@@ -1,0 +1,12 @@
+playwright
+pandas
+numpy
+xgboost
+scikit-learn
+fastapi
+uvicorn
+streamlit
+plotly
+mysql-connector-python
+torch
+EOF
