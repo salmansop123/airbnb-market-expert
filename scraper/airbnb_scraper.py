@@ -127,4 +127,14 @@ def scrape_region(region):
     return results
 
 if __name__ == "__main__":
-    scrape_region("New-York")
+    regions = [
+        "New-York",
+        "Los-Angeles",
+        "Chicago",
+        "Miami",
+        "San-Francisco"
+    ]
+    
+    for region in regions:
+        print(f"\n========== Scraping {region} ==========")
+        scrape_region(region)
