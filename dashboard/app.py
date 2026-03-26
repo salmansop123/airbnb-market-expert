@@ -13,7 +13,16 @@ st.markdown("Data-driven insights for Airbnb hosts")
 def load_data():
     df = pd.read_csv("data/processed/clean_listings.csv")
     df["property_type"] = df["title"].str.split(" in ").str[0]
+    
+    # Must match exactly what model was trained on
+    df["property_type"] = df["property_type"].replace({
+        "Rooms": "Room",
+        "Place to stay": "Apartment",
+        "Hotel Julian": "Hotel",
+        "Home": "Apartment"
+    })
     return df
+
 
 df = load_data()
 
