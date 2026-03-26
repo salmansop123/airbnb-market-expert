@@ -17,6 +17,18 @@ def load_data():
 
 df = load_data()
 
+if df is None or df.empty:
+    st.error("Dataset not loaded or empty")
+    st.stop()
+
+required_cols = ["region", "price", "title"]
+
+missing = [col for col in required_cols if col not in df.columns]
+
+if missing:
+    st.error(f"Missing columns: {missing}")
+    st.stop()
+
 # ── Section 1: Key Metrics ──
 st.header("📊 Market Overview")
 
@@ -38,7 +50,7 @@ avg_price = df.groupby("region")["price"].mean().reset_index()
 fig1 = px.bar(avg_price, x="region", y="price",
               color="price", color_continuous_scale="Blues",
               title="Average Nightly Price by City")
-st.plotly_chart(fig1, use_container_width=True)
+st.plotly_chart(fig1, width="stretch")
 
 # ── Section 3: Price Distribution ──
 st.header("📈 Price Distribution")
@@ -74,7 +86,7 @@ with col2:
 if st.button("Predict Price 🔮"):
     try:
         # Call your FastAPI
-        url = f"http://127.0.0.1:8000/predict?region={region}&property_type={property_type}"
+        url = f"http://api:8000/predict?region={region}&property_type={property_type}"
         response = requests.get(url)
         result = response.json()
 

@@ -2,11 +2,13 @@ playwright
 pandas
 numpy
 xgboost
-scikit-learn
+scikit-learn==1.5.1
 fastapi
 uvicorn
 streamlit
 plotly
 mysql-connector-python
-torch
-EOF
+python-dotenv
+sqlalchemy
+joblib
+requests
