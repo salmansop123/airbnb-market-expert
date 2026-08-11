@@ -1,0 +1,12 @@
+
+# Python
+.venv/
+**/.venv/
+
+# Node
+node_modules/
+**/node_modules/
+
+# Next.js
+.next/
+**/.next/

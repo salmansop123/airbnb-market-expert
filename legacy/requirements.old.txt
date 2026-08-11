@@ -1,0 +1,14 @@
+playwright
+pandas
+numpy
+xgboost
+scikit-learn==1.5.1
+fastapi
+uvicorn
+streamlit
+plotly
+mysql-connector-python
+python-dotenv
+sqlalchemy
+joblib
+requests

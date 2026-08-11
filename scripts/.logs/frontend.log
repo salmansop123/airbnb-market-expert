@@ -1,0 +1,90 @@
+
+> stayprice-web@1.0.0 dev
+> next dev --port 3000
+
+   ▲ Next.js 15.1.0
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.86.50:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 1941ms
+ ○ Compiling / ...
+ ✓ Compiled / in 2.3s (1407 modules)
+ GET / 200 in 2639ms
+ ○ Compiling /login ...
+ ✓ Compiled /login in 778ms (1434 modules)
+ GET /login 200 in 846ms
+ GET /login 200 in 7ms
+ ○ Compiling /app ...
+ ✓ Compiled /app in 1238ms (2463 modules)
+ GET /app 200 in 1292ms
+ ✓ Compiled /app/properties/new in 415ms (2470 modules)
+ GET /app/properties/new 200 in 471ms
+ ✓ Compiled /app/predictions in 441ms (1957 modules)
+ GET /app/predictions 200 in 526ms
+ ✓ Compiled /app/properties in 271ms (1964 modules)
+ GET /app/properties 200 in 312ms
+ GET /app/properties 200 in 10ms
+ GET /app/properties 200 in 8ms
+ GET /app/properties 200 in 9ms
+ GET /app/properties 200 in 9ms
+ GET /app/properties 200 in 9ms
+ ✓ Compiled /app in 161ms (1260 modules)
+ GET /app 200 in 186ms
+ GET /app 200 in 5ms
+ GET /app/properties 200 in 21ms
+ GET /app/properties 200 in 8ms
+ ✓ Compiled /app/properties/[id] in 335ms (2491 modules)
+ GET /app/properties/c56a3f78-3748-4393-ba17-bef1f235af9d 200 in 781ms
+ GET /app/properties 200 in 6ms
+ ✓ Compiled in 552ms (1240 modules)
+ GET /app/properties 200 in 11ms
+ ✓ Compiled in 128ms (1240 modules)
+ GET /app/properties 200 in 7ms
+ ✓ Compiled in 753ms (2003 modules)
+ GET /app/properties 200 in 36ms
+ ✓ Compiled in 406ms (2003 modules)
+ GET /app/properties 200 in 54ms
+ ⚠ ./src/app/app/properties/page.tsx
+Attempted import error: 'ONBOARDING_DRAFT_KEY' is not exported from '@/components/onboarding/constants' (imported as 'ONBOARDING_DRAFT_KEY').
+
+Import trace for requested module:
+./src/app/app/properties/page.tsx
+
+./src/app/app/properties/page.tsx
+Attempted import error: 'ONBOARDING_DRAFT_KEY' is not exported from '@/components/onboarding/constants' (imported as 'ONBOARDING_DRAFT_KEY').
+
+Import trace for requested module:
+./src/app/app/properties/page.tsx
+
+./src/app/app/properties/page.tsx
+Attempted import error: 'ONBOARDING_DRAFT_KEY' is not exported from '@/components/onboarding/constants' (imported as 'ONBOARDING_DRAFT_KEY').
+
+Import trace for requested module:
+./src/app/app/properties/page.tsx
+
+./src/app/app/properties/page.tsx
+Attempted import error: 'ONBOARDING_DRAFT_KEY' is not exported from '@/components/onboarding/constants' (imported as 'ONBOARDING_DRAFT_KEY').
+
+Import trace for requested module:
+./src/app/app/properties/page.tsx
+ GET /app/properties 200 in 38ms
+ ✓ Compiled in 204ms (2003 modules)
+ GET /app/properties 200 in 17ms
+ ✓ Compiled in 169ms (2003 modules)
+ GET /app/properties 200 in 18ms
+ ✓ Compiled in 101ms (1254 modules)
+ GET /app/properties 200 in 8ms
+ ✓ Compiled in 96ms (1254 modules)
+ GET /app/properties 200 in 8ms
+ ✓ Compiled in 104ms (1254 modules)
+ GET /app/properties 200 in 9ms
+ ✓ Compiled in 165ms (1254 modules)
+ GET /app/properties 200 in 12ms
+ GET /app/properties 200 in 81ms
+ GET /login 200 in 14ms
+ ○ Compiling /app ...
+ ✓ Compiled /app in 703ms (1269 modules)
+ GET /app 200 in 800ms
+ GET /app/properties/new 200 in 23ms

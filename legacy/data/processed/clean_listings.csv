@@ -1,0 +1,32 @@
+id,title,region,price,scraped_at
+1,Place to stay in Jersey City,New-York,216.2,2026-03-25 23:22:27
+2,Apartment in Union City,New-York,255.0,2026-03-25 23:22:27
+3,Hotel in New York,New-York,236.0,2026-03-25 23:22:27
+4,Apartment in Jersey City,New-York,250.0,2026-03-25 23:22:27
+5,Hotel in New York,New-York,523.4,2026-03-25 23:22:27
+6,Room in Jersey City,New-York,216.2,2026-03-25 23:27:54
+8,Room in New York,New-York,236.0,2026-03-25 23:27:54
+10,Room in New York,New-York,523.4,2026-03-25 23:27:54
+11,Home in West Hollywood,Los-Angeles,520.0,2026-03-25 23:28:11
+12,Home in Malibu,Los-Angeles,274.6,2026-03-25 23:28:11
+13,Room in The Loop,Chicago,207.4,2026-03-25 23:28:24
+14,Apartment in West Loop,Chicago,183.8,2026-03-25 23:28:24
+15,Condo in Lake View,Chicago,183.0,2026-03-25 23:28:24
+16,Apartment in River North,Chicago,244.4,2026-03-25 23:28:24
+17,Apartment in Ranch Triangle,Chicago,187.6,2026-03-25 23:28:24
+18,Apartment in Lincoln Park,Chicago,178.6,2026-03-25 23:28:24
+19,Apartment in Old Town,Chicago,160.6,2026-03-25 23:28:24
+20,Apartment in Downtown Chicago,Chicago,540.6,2026-03-25 23:28:24
+21,Home in Miami,Miami,316.2,2026-03-25 23:28:47
+22,Apartment in Miami,Miami,394.8,2026-03-25 23:28:47
+23,Home in Miami Shores,Miami,281.0,2026-03-25 23:28:47
+24,Apartment in Miami,Miami,307.4,2026-03-25 23:28:47
+25,Home in Miami,Miami,189.0,2026-03-25 23:28:47
+26,Apartment in Miami,Miami,416.6,2026-03-25 23:28:47
+27,Rooms in San Francisco,San-Francisco,126.6,2026-03-25 23:29:00
+28,Apartment in San Francisco,San-Francisco,194.0,2026-03-25 23:29:00
+29,Room in San Francisco,San-Francisco,268.2,2026-03-25 23:29:00
+30,Apartment in San Francisco,San-Francisco,291.4,2026-03-25 23:29:00
+31,Apartment in San Francisco,San-Francisco,148.2,2026-03-25 23:29:00
+32,Apartment in San Francisco,San-Francisco,354.0,2026-03-25 23:29:00
+33,Hotel Julian,San-Francisco,131.4,2026-03-25 23:29:00
